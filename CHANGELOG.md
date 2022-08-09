@@ -21,4 +21,8 @@ No es necesario actualizar la libreria WebRTC
 - Actualización de estilos en modales
 - Al pasar a modo PiP, los eventos de mute del agente no se estaban visualizando correctamente
 
+## [1.0.6] - 2022-08-09
+No es necesario actualizar la libreria WebRTC
 
+### Fixed
+- Modal de alerta con fondo transparente (actualización del ícono fuera del modal)
