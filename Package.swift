@@ -10,13 +10,10 @@ let package = Package(
             name: "VGWebInteractionClientSDK",
             targets: ["VGWebInteractionClientSDK"]),
     ],
-//    dependencies: [
-//		.package(url: "https://github.com/TelecomVG/WebRTC.git", .upToNextMinor(from: "102.5005.0"))
-//	],
     targets: [
 		.binaryTarget(
 			name: "VGWebInteractionClientSDK",
-			url: "https://telecom.vg/assets/videoroom/mobile/ios/releases/1.0.3/VGWebInteractionClientSDK.xcframework.zip",
-			checksum: "abec3cd39c8211f014e51fdf2a8ea92593cbf1293d6234974333d3a83cff3d6b")
+			url: "https://telecom.vg/assets/videoroom/mobile/ios/releases/1.0.5/VGWebInteractionClientSDK.xcframework.zip",
+			checksum: "1276f2ac98af7e4f9670092589e2da5d810cfd843033a33c56a2ba0da8955304")
     ]
 )
