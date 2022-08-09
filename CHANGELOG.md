@@ -13,16 +13,11 @@ No es necesario actualizar la libreria WebRTC
 - Se habilitó el speaker en automático para la videollamada cuando no hay audífonos conectados.
 - Durante la videollamada, se ruteara el audio en automático cuando se conecten y desconecten audífonos. 
 
-## [1.0.5] - 2022-08-09
+## [1.0.7] - 2022-08-09
 No es necesario actualizar la libreria WebRTC
 
 ### Fixed
 - Corrección de Textos en alertas
 - Actualización de estilos en modales
 - Al pasar a modo PiP, los eventos de mute del agente no se estaban visualizando correctamente
-
-## [1.0.6] - 2022-08-09
-No es necesario actualizar la libreria WebRTC
-
-### Fixed
 - Modal de alerta con fondo transparente (actualización del ícono fuera del modal)
