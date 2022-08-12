@@ -23,7 +23,7 @@ No es necesario actualizar la libreria WebRTC
 - Modal de alerta con fondo transparente (actualización del ícono fuera del modal)
 
 ## [1.0.8] - 2022-08-12
-Se agregó WebRTC como dependencia del SPM
+No es necesario actualizar la libreria WebRTC
 
 ### New
 - Se eliminó la referencia interna (Build Phases -> Copy files)

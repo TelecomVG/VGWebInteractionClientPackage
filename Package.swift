@@ -10,9 +10,6 @@ let package = Package(
             name: "VGWebInteractionClientSDK",
             targets: ["VGWebInteractionClientSDK"]),
     ],
-    dependencies: [
-		.package(url: "https://github.com/TelecomVG/WebRTC-iOS.git", .upToNextMinor(from: "95.4638.0")),		
-	],
     targets: [
 		.binaryTarget(
 			name: "VGWebInteractionClientSDK",
