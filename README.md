@@ -1,5 +1,8 @@
 # VGWebInteractionClientPackage
 
+## Compatibilidad
+**iOS 13+**
+
 1. Enable Bitcode = NO
 2. Initializar SDK
 
