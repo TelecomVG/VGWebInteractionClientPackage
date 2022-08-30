@@ -13,7 +13,7 @@ let package = Package(
     targets: [
 		.binaryTarget(
 			name: "VGWebInteractionClientSDK",
-			url: "https://telecom.vg/assets/videoroom/mobile/ios/releases/1.0.8/VGWebInteractionClientSDK.xcframework.zip",
-			checksum: "4a1d6dc6ba5fc118a266189a3635cf9f33ddc757a173dc371118c85bd2181a2f")
+			url: "https://telecom.vg/assets/videoroom/mobile/ios/releases/1.0.9/VGWebInteractionClientSDK.xcframework.zip",
+			checksum: "c40f01834e836c9f997d193a242d8ba271851903eed973e797c4ba5db15cebd1")
     ]
 )
