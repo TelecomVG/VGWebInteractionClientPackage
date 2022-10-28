@@ -7,9 +7,9 @@
 2. Initializar SDK
 
     ```Swift
-    import VGWebInteractionClientSDK
+		import VGWebInteractionClientSDK
 
-    VGWebInteractionClient.setup(sic: "123456", first_name: "John", last_name: "Doe", env: "qa", portal: "BM")
+		VGWebInteractionClient.setup(sic: "123456", first_name: "John", last_name: "Doe", env: "qa", portal: "BM")
     ```
 
     envs: [dev, qa, prod]
@@ -17,13 +17,22 @@
 
     *(BM=Banorte Móvil, BML=Banorte Móvil Lite)
 
-3. Ejecutar videollamada
+## Videollamada
+1. Ejecutar videollamada
 
     ```Swift
-    VGWebInteractionClient.request_videocall()
+		VGWebInteractionClient.request_videocall()
     ```
+    
+## Navegación asistida (Cobrowse)
+1. Ejecutar cobrowse
 
-4. Para cuando expire la sesión del portal. Si el SDK esta ejecutando una videollamada va a mandar una notificación via NotificationCenter la cual la recibirá el controlador de la videollamada para ejecutar su cierre normal y mostrando la alerta de sesión expirada.
+	```Swift
+		VGWebInteractionClient.request_videocall()
+	```
+
+## Session
+1. Para cuando expire la sesión del portal. Si el SDK esta ejecutando una videollamada o navegación asistida (Cobrowse) va a mandar una notificación via NotificationCenter la cual la recibirá el SDK para ejecutar su cierre normal y mostrando la alerta de sesión expirada.
 
     ```Swift
     VGWebInteractionClient.session_expired()
