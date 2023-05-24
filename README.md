@@ -4,7 +4,8 @@
 **iOS 13+**
 
 1. Enable Bitcode = NO
-2. Initializar SDK
+2. Background Modes: Voice over IP activado
+3. Initializar SDK
 
     ```Swift
 		import VGWebInteractionClientSDK
